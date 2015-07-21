@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C07A60C21B53D2D5007323CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C07A60C11B53D2D5007323CD /* main.m */; };
+		C07A60C51B53D2D5007323CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C07A60C41B53D2D5007323CD /* AppDelegate.m */; };
+		C07A60C81B53D2D5007323CD /* coreLocationMapView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C07A60C61B53D2D5007323CD /* coreLocationMapView.xcdatamodeld */; };
+		C07A60CB1B53D2D5007323CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07A60CA1B53D2D5007323CD /* ViewController.m */; };
+		C07A60CE1B53D2D5007323CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07A60CC1B53D2D5007323CD /* Main.storyboard */; };
+		C07A60D01B53D2D5007323CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07A60CF1B53D2D5007323CD /* Images.xcassets */; };
+		C07A60D31B53D2D5007323CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C07A60D11B53D2D5007323CD /* LaunchScreen.xib */; };
+		C07A60DF1B53D2D5007323CD /* coreLocationMapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C07A60DE1B53D2D5007323CD /* coreLocationMapViewTests.m */; };
+		C07A60E91B53D3AB007323CD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07A60E81B53D3AB007323CD /* CoreLocation.framework */; };
+		C07A60EB1B53D3B0007323CD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07A60EA1B53D3B0007323CD /* MapKit.framework */; };
+		C07A60EE1B53E8FE007323CD /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C07A60ED1B53E8FE007323CD /* Annotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C07A60D91B53D2D5007323CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07A60B41B53D2D5007323CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C07A60BB1B53D2D5007323CD;
+			remoteInfo = coreLocationMapView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C07A60BC1B53D2D5007323CD /* coreLocationMapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreLocationMapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07A60C01B53D2D5007323CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07A60C11B53D2D5007323CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C07A60C31B53D2D5007323CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C07A60C41B53D2D5007323CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C07A60C71B53D2D5007323CD /* coreLocationMapView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coreLocationMapView.xcdatamodel; sourceTree = "<group>"; };
+		C07A60C91B53D2D5007323CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C07A60CA1B53D2D5007323CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C07A60CD1B53D2D5007323CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C07A60CF1B53D2D5007323CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C07A60D21B53D2D5007323CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C07A60D81B53D2D5007323CD /* coreLocationMapViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coreLocationMapViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07A60DD1B53D2D5007323CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07A60DE1B53D2D5007323CD /* coreLocationMapViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coreLocationMapViewTests.m; sourceTree = "<group>"; };
+		C07A60E81B53D3AB007323CD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C07A60EA1B53D3B0007323CD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C07A60EC1B53E8FE007323CD /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		C07A60ED1B53E8FE007323CD /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C07A60B91B53D2D5007323CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07A60EB1B53D3B0007323CD /* MapKit.framework in Frameworks */,
+				C07A60E91B53D3AB007323CD /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07A60D51B53D2D5007323CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C07A60B31B53D2D5007323CD = {
+			isa = PBXGroup;
+			children = (
+				C07A60EA1B53D3B0007323CD /* MapKit.framework */,
+				C07A60E81B53D3AB007323CD /* CoreLocation.framework */,
+				C07A60BE1B53D2D5007323CD /* coreLocationMapView */,
+				C07A60DB1B53D2D5007323CD /* coreLocationMapViewTests */,
+				C07A60BD1B53D2D5007323CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C07A60BD1B53D2D5007323CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C07A60BC1B53D2D5007323CD /* coreLocationMapView.app */,
+				C07A60D81B53D2D5007323CD /* coreLocationMapViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C07A60BE1B53D2D5007323CD /* coreLocationMapView */ = {
+			isa = PBXGroup;
+			children = (
+				C07A60C31B53D2D5007323CD /* AppDelegate.h */,
+				C07A60C41B53D2D5007323CD /* AppDelegate.m */,
+				C07A60C91B53D2D5007323CD /* ViewController.h */,
+				C07A60CA1B53D2D5007323CD /* ViewController.m */,
+				C07A60EC1B53E8FE007323CD /* Annotation.h */,
+				C07A60ED1B53E8FE007323CD /* Annotation.m */,
+				C07A60CC1B53D2D5007323CD /* Main.storyboard */,
+				C07A60CF1B53D2D5007323CD /* Images.xcassets */,
+				C07A60D11B53D2D5007323CD /* LaunchScreen.xib */,
+				C07A60C61B53D2D5007323CD /* coreLocationMapView.xcdatamodeld */,
+				C07A60BF1B53D2D5007323CD /* Supporting Files */,
+			);
+			path = coreLocationMapView;
+			sourceTree = "<group>";
+		};
+		C07A60BF1B53D2D5007323CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C07A60C01B53D2D5007323CD /* Info.plist */,
+				C07A60C11B53D2D5007323CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C07A60DB1B53D2D5007323CD /* coreLocationMapViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C07A60DE1B53D2D5007323CD /* coreLocationMapViewTests.m */,
+				C07A60DC1B53D2D5007323CD /* Supporting Files */,
+			);
+			path = coreLocationMapViewTests;
+			sourceTree = "<group>";
+		};
+		C07A60DC1B53D2D5007323CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C07A60DD1B53D2D5007323CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C07A60BB1B53D2D5007323CD /* coreLocationMapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07A60E21B53D2D5007323CD /* Build configuration list for PBXNativeTarget "coreLocationMapView" */;
+			buildPhases = (
+				C07A60B81B53D2D5007323CD /* Sources */,
+				C07A60B91B53D2D5007323CD /* Frameworks */,
+				C07A60BA1B53D2D5007323CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coreLocationMapView;
+			productName = coreLocationMapView;
+			productReference = C07A60BC1B53D2D5007323CD /* coreLocationMapView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C07A60D71B53D2D5007323CD /* coreLocationMapViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07A60E51B53D2D5007323CD /* Build configuration list for PBXNativeTarget "coreLocationMapViewTests" */;
+			buildPhases = (
+				C07A60D41B53D2D5007323CD /* Sources */,
+				C07A60D51B53D2D5007323CD /* Frameworks */,
+				C07A60D61B53D2D5007323CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C07A60DA1B53D2D5007323CD /* PBXTargetDependency */,
+			);
+			name = coreLocationMapViewTests;
+			productName = coreLocationMapViewTests;
+			productReference = C07A60D81B53D2D5007323CD /* coreLocationMapViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C07A60B41B53D2D5007323CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Cognizant;
+				TargetAttributes = {
+					C07A60BB1B53D2D5007323CD = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C07A60D71B53D2D5007323CD = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C07A60BB1B53D2D5007323CD;
+					};
+				};
+			};
+			buildConfigurationList = C07A60B71B53D2D5007323CD /* Build configuration list for PBXProject "coreLocationMapView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C07A60B31B53D2D5007323CD;
+			productRefGroup = C07A60BD1B53D2D5007323CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C07A60BB1B53D2D5007323CD /* coreLocationMapView */,
+				C07A60D71B53D2D5007323CD /* coreLocationMapViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C07A60BA1B53D2D5007323CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07A60CE1B53D2D5007323CD /* Main.storyboard in Resources */,
+				C07A60D31B53D2D5007323CD /* LaunchScreen.xib in Resources */,
+				C07A60D01B53D2D5007323CD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07A60D61B53D2D5007323CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C07A60B81B53D2D5007323CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07A60EE1B53E8FE007323CD /* Annotation.m in Sources */,
+				C07A60C81B53D2D5007323CD /* coreLocationMapView.xcdatamodeld in Sources */,
+				C07A60C51B53D2D5007323CD /* AppDelegate.m in Sources */,
+				C07A60CB1B53D2D5007323CD /* ViewController.m in Sources */,
+				C07A60C21B53D2D5007323CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07A60D41B53D2D5007323CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07A60DF1B53D2D5007323CD /* coreLocationMapViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C07A60DA1B53D2D5007323CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C07A60BB1B53D2D5007323CD /* coreLocationMapView */;
+			targetProxy = C07A60D91B53D2D5007323CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C07A60CC1B53D2D5007323CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C07A60CD1B53D2D5007323CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C07A60D11B53D2D5007323CD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C07A60D21B53D2D5007323CD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C07A60E01B53D2D5007323CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C07A60E11B53D2D5007323CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C07A60E31B53D2D5007323CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = coreLocationMapView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C07A60E41B53D2D5007323CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = coreLocationMapView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C07A60E61B53D2D5007323CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = coreLocationMapViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coreLocationMapView.app/coreLocationMapView";
+			};
+			name = Debug;
+		};
+		C07A60E71B53D2D5007323CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = coreLocationMapViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coreLocationMapView.app/coreLocationMapView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C07A60B71B53D2D5007323CD /* Build configuration list for PBXProject "coreLocationMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07A60E01B53D2D5007323CD /* Debug */,
+				C07A60E11B53D2D5007323CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07A60E21B53D2D5007323CD /* Build configuration list for PBXNativeTarget "coreLocationMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07A60E31B53D2D5007323CD /* Debug */,
+				C07A60E41B53D2D5007323CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C07A60E51B53D2D5007323CD /* Build configuration list for PBXNativeTarget "coreLocationMapViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07A60E61B53D2D5007323CD /* Debug */,
+				C07A60E71B53D2D5007323CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C07A60C61B53D2D5007323CD /* coreLocationMapView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C07A60C71B53D2D5007323CD /* coreLocationMapView.xcdatamodel */,
+			);
+			currentVersion = C07A60C71B53D2D5007323CD /* coreLocationMapView.xcdatamodel */;
+			path = coreLocationMapView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C07A60B41B53D2D5007323CD /* Project object */;
+}
