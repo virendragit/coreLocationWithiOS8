@@ -180,7 +180,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
-				ORGANIZATIONNAME = Cognizant;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					C07A60BB1B53D2D5007323CD = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -434,6 +434,7 @@
 				C07A60E41B53D2D5007323CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C07A60E51B53D2D5007323CD /* Build configuration list for PBXNativeTarget "coreLocationMapViewTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +443,7 @@
 				C07A60E71B53D2D5007323CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
